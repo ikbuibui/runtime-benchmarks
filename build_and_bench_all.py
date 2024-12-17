@@ -10,13 +10,14 @@ import yaml
 import sys
 
 runtimes = {
-    "cpp": ["TooManyCooks", "libfork", "concurrencpp"]
+    "cpp": ["TooManyCooks", "libfork", "concurrencpp", "rg"]
 }
 
 runtime_links = {
     "TooManyCooks": "https://github.com/tzcnt/TooManyCooks",
     "libfork": "https://github.com/ConorWilliams/libfork",
-    "concurrencpp": "https://github.com/David-Haim/concurrencpp"
+    "concurrencpp": "https://github.com/David-Haim/concurrencpp",
+    "rg": "https://github.com/ikbuibui/rg"
 }
 
 benchmarks={
