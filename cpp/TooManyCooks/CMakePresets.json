@@ -4,7 +4,7 @@
     {
       "name": "clang-linux-debug",
       "displayName": "Clang-Linux Debug",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = clang, CXX = clang++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -22,7 +22,7 @@
     {
       "name": "clang-linux-release",
       "displayName": "Clang-Linux Release",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = clang, CXX = clang++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -41,7 +41,7 @@
     {
       "name": "clang-linux-relwithdebinfo",
       "displayName": "Clang-Linux Release with Debug Info",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = clang, CXX = clang++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -59,7 +59,7 @@
     {
       "name": "gcc-linux-debug",
       "displayName": "GCC-Linux Debug",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = gcc, CXX = g++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -77,7 +77,7 @@
     {
       "name": "gcc-linux-release",
       "displayName": "GCC-Linux Release",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = gcc, CXX = g++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -96,7 +96,7 @@
     {
       "name": "gcc-linux-relwithdebinfo",
       "displayName": "GCC-Linux Release with Debug Info",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compilers: C = gcc, CXX = g++",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -114,7 +114,7 @@
     {
       "name": "clang-win-debug",
       "displayName": "Clang-Win Debug",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compiler: clang-cl.exe",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -145,7 +145,7 @@
     {
       "name": "clang-win-release",
       "displayName": "Clang-Win Release",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compiler: clang-cl.exe",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -177,7 +177,7 @@
     {
       "name": "clang-win-relwithdebinfo",
       "displayName": "Clang-Win Release with Debug Info",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "description": "Using compiler: clang-cl.exe",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
@@ -209,7 +209,7 @@
       "name": "msvc-win-debug",
       "displayName": "MSVC-Win Debug",
       "description": "Using compiler: cl.exe",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
@@ -235,7 +235,7 @@
       "name": "msvc-win-release",
       "displayName": "MSVC-Win Release",
       "description": "Using compiler: cl.exe",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
@@ -263,7 +263,7 @@
       "name": "msvc-win-relwithdebinfo",
       "displayName": "MSVC-Win Release with Debug Info",
       "description": "Using compiler: cl.exe",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "RelWithDebInfo",
